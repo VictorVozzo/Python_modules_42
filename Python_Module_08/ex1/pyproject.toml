@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "loading"
+version = "0.1.0"
+description = "Matrix dependency management exercise"
+authors = ["Victor Vozzo Telles <vivozzo-@student.42porto.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.3.3"
+numpy = "2.2.6"
+matplotlib = "3.10.9"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
